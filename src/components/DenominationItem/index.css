@@ -1,0 +1,27 @@
+/* Write your CSS here */
+button {
+  height: 35px;
+  width: 140px;
+  flex-wrap: wrap;
+  background-color: #382f5a;
+  border: solid 2px #c4c4c4;
+  border-radius: 5px;
+  color: #d4d2db;
+  font-size: 16px;
+  margin: 5px;
+  outline: none;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+@media (min-width: 576px) {
+  button {
+    width: 150px;
+  }
+}
+@media (min-width: 992px) {
+  button {
+    height: 35px;
+    width: 140px;
+  }
+}

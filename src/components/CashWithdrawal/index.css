@@ -1,0 +1,86 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+  margin: 0px;
+}
+.bg-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #150b3e;
+  width: 90%;
+  padding: 25px;
+  border-radius: 20px;
+  max-width: 400px;
+}
+.mini-container {
+  display: flex;
+  align-items: center;
+}
+.circle {
+  background-color: #c7d2fe;
+  height: 70px;
+  width: 70px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  font-size: 22px;
+  color: #7c3aed;
+  margin-right: 15px;
+}
+.para {
+  color: #c4c4c4;
+  font-size: 20px;
+}
+.balance {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.your-balance {
+  color: #585076;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.rupees-container {
+  color: #585076;
+}
+
+.rupees {
+  color: #d4d2db;
+  text-align: right;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.withdraw {
+  font-size: 24px;
+  color: #d4d2db;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.sum {
+  color: #585076;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.rupees-amount {
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  flex-wrap: wrap;
+}
